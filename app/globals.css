@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #000000;
+}
+
+.custom-radius {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* Adjust as needed for your desired radii */
+}
+@media screen and (min-width:800px) and (max-width: 900px) {
+  .make {
+    margin-left: 50px;
+  }
+
+  .make-up {
+    margin-left: 80px;
+  }
+
+  .make-down {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width:765px) and (max-width: 1024px) {
+  .about-image{
+    margin-left: 45vw;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width: 1024px) {
+  .make {
+    margin-left: 80px;
+  }
+
+  .make-up {
+    margin-left: 90px;
+  }
+
+  .make-down {
+    margin-left: 80px;
+  }
+}
