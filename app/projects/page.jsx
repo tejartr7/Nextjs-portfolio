@@ -35,7 +35,7 @@ const Projects = () => {
                             <div className="relative rounded-md overflow-hidden group">
                                 <div class="relative w-full p-3 rounded  md:p-8">
                                     <div class="rounded-lg bg-black text-black w-full">
-                                        <Image src={project.image} style={{ borderRadius: '10px' }} />
+                                        <Image className="project-images" src={project.image} style={{ borderRadius: '10px' }} />
                                     </div>
                                 </div>
                             </div>
