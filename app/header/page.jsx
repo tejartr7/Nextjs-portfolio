@@ -6,10 +6,9 @@ import { useState } from 'react';
 const Header = () => {
   const [router, setRouter] = useState(usePathname() || '/');
   const [isNavOpen, setNavOpen] = useState(false);
-
   const isActive = (path) => router === path;
+  const handler = (url) => setRouter(url);
   const handleToggleNav = () => setNavOpen(!isNavOpen);
-
   return (
     <nav className="py-4 md:py-6">
       <div className="container px-4 mx-auto md:flex md:items-center">
