@@ -15,6 +15,9 @@ body {
   border-bottom-right-radius: 5px;
   /* Adjust as needed for your desired radii */
 }
+.project-images:hover{
+  box-shadow: 5px 5px 5px 5px #ffff00;
+}
 @media screen and (min-width:800px) and (max-width: 900px) {
   .make {
     margin-left: 50px;
