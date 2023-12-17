@@ -19,7 +19,7 @@ const Projects = () => {
                     >
                         <div className="flex-grow items-center lg:w-9/12 md:w-full p-4 flex flex-col justify-center">
                             {/* Content in the left column */}
-                            <h2 className="text-3xl text-left mb-2" style={{ color: '#ffff00' }}>{project.title}</h2>
+                            <h2 className="text-3xl text-left mb-2" style={{ color: '#ffff00' }}><u>{project.title}</u></h2>
                             <p className="text-xl text-left">{project.about}</p>
                             <a
                                 href={project.link}
@@ -35,7 +35,7 @@ const Projects = () => {
                             <div className="relative rounded-md overflow-hidden group">
                                 <div class="relative w-full p-3 rounded  md:p-8">
                                     <div class="rounded-lg bg-black text-black w-full">
-                                        <Image src={project.image} style={{ borderRadius: '10px' }} />
+                                        <Image className="project-images" src={project.image} style={{ borderRadius: '10px' }} />
                                     </div>
                                 </div>
                             </div>
