@@ -20,8 +20,7 @@ const Skills = () => {
     };
 
     return (
-        <div><h1 className="text-center text-4xl mt-2" style={{ color: '#ffff00'}}>Skills</h1><CenteredContainer>
-
+        <div><h1 className="text-center text-4xl mt-2 font-bold" style={{ color: '#ffff00'}}>Skills</h1><CenteredContainer>
             <SkillsCard>
                 <div className="skills-list__skills">
                     <button

@@ -33,7 +33,7 @@ const Hero = () => {
                     <h3 className="leading-tight lg:text-3xl sm:text-5xl md:text-6xl" style={{ color: '#ffff00' }}>
                         Hi! I'm
                     </h3>
-                    <h2 className='mt-2 text-white text-4xl lg:text-6xl'>RTR</h2>
+                    <h2 className='mt-2 text-white text-4xl lg:text-6xl font-bold'>RTR</h2>
                     <p className='text-3xl sm:text-4xl lg:text-4xl mt-1' id="typewriter" style={{ color: "#ffff00" }}></p>
                     <p className='text-4xl sm:text-4xl lg:text-4xl mt-1' style={{ color: 'white' }}>I bring your dream website to life.</p>
                     <p className='text-lg mt-2' style={{ color: 'white' }}>I'm a web developer with 2+ years of experience, I specialize in both frontend and backend development. I am passionate about crafting robust and user-friendly web solutions. If you are seeking a skilled web developer, feel free to reach out to me. I look forward to bringing your projects to life!</p>
