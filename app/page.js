@@ -1,5 +1,5 @@
 'use client'
-import Header from "../Components/Header";
+import Header from "./header/page";
 import About from "./about/page";
 import Contact from "./contact/page";
 import Hero from "./hero/page";
