@@ -1,4 +1,4 @@
-import React from 'react';
+'use client'
 import { IoIosMail } from 'react-icons/io';
 import { FaXTwitter } from "react-icons/fa6";
 import Icon from '../techstack/Icon';
