@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <nav className="py-4 md:py-6">
-            <div className="container px-4 mx-auto md:flex md:items-center">
+            <div className="font-sans container px-4 mx-auto md:flex md:items-center">
                 <div className="flex items-center"> {/* Removed justify-between */}
                     <button
                         className={`md:hidden border-4 border-solid border-gray-600 p-3 rounded text-gray-600 ${isNavOpen ? 'bg-gray-200' : ''}`}

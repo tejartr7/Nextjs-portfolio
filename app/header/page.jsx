@@ -11,7 +11,7 @@ const Header = () => {
   const handleToggleNav = () => setNavOpen(!isNavOpen);
   return (
     <nav className="py-4 md:py-6">
-      <div className="container px-4 mx-auto md:flex md:items-center">
+      <div className="font-sans container px-4 mx-auto md:flex md:items-center">
         <div className="flex justify-between items-center w-full">
           <a href="/" className="font-bold text-xl text-indigo-600">
             Logo

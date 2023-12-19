@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Merriweather': ['Merriweather', 'serif'],
+        'Merriweather': ['Merriweather'],
+        'sans':['sans-serif'],
       },
     },
   },
