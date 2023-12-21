@@ -4,4 +4,6 @@ import quiz from './quiz.png';
 import todolist from './todolist.png';
 import calorie from './calorie.png';
 import tictactoe from './tictac.png';
-export { hero, about, quiz, todolist, calorie, tictactoe };
+import swaad from './swaad.png';
+import portfolio from './portfolio.png';
+export { hero, about, quiz, todolist, calorie, tictactoe,swaad,portfolio};
