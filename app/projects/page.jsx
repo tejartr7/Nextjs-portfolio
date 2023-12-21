@@ -28,7 +28,7 @@ const Projects = () => {
                                 className="text-lg mt-2"
                                 style={{ color: '#ffff00' }}
                             >
-                                Visit the project
+                            Explore This Project
                             </a>
                         </div>
                         <div className="lg:w-6/12,h:auto md:w-full p-4">

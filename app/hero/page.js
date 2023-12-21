@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import {hero} from '../images/index';
+import { hero } from '../images/index';
 import Image from 'next/image';
 import { useEffect } from 'react';
 import Typewriter from 'typewriter-effect/dist/core';
@@ -35,8 +35,8 @@ const Hero = () => {
                     </h3>
                     <h2 className='mt-2 text-white text-4xl lg:text-6xl font-bold'>RTR</h2>
                     <p className='text-3xl sm:text-4xl lg:text-4xl mt-1' id="typewriter" style={{ color: "#ffff00" }}></p>
-                    <p className='text-4xl sm:text-4xl lg:text-4xl mt-1' style={{ color: 'white' }}>I bring your dream website to life.</p>
-                    <p className='text-lg mt-2' style={{ color: 'white' }}>I'm a web developer with 2+ years of experience, I specialize in both frontend and backend development. I am passionate about crafting robust and user-friendly web solutions. If you are seeking a skilled web developer, feel free to reach out to me. I look forward to bringing your projects to life!</p>
+                    <p className='text-4xl sm:text-4xl lg:text-4xl mt-1' style={{ color: 'white' }}>Transform Your Web Presence with RTR – Crafting Bespoke Solutions Tailored to Your Vision.</p>
+                    <p className='text-lg mt-2' style={{ color: 'white' }}>Transform Your Web Presence with RTR – Crafting Bespoke Solutions Tailored to Your Vision</p>
                     <div className="mb-4 mt-2 flex sm:items-center lg:items-left">
                         <div className="inline-flex transition duration-150 ease-in-out" role="group">
                             <a

@@ -13,17 +13,12 @@ const About = () => {
           <div className='col-span-2 text-left text-xl'>
             <h2 className='text-left text-3xl my-2' style={{ color: '#ffff00' }}>About me</h2>
             <p className='text-left'>
-              Hello! I'm RTR, an engineer with a deep passion for coding and a relentless curiosity for technology. My journey into the world of programming began as a spark that ignited into a fervent interest. This fascination led me to explore languages such as Java and C++, delving into the intricacies of data structures and algorithms.
-            </p>
+              Discover the future of web development with RTR, where innovation meets craftsmanship. I harness the power of full-stack technology to create robust, intuitive, and adaptive web solutions. My mission is to transform your challenges into cutting-edge experiences that leave a lasting impact.
 
-            <p className='text-left'>
-              As I embraced the world of coding, I found myself drawn to the vast realm of full-stack web development. Eager to showcase my creativity through websites, I immersed myself in learning new technologies, libraries, and frameworks. Today, my core skills lie in crafting dynamic and responsive web applications using Next.js, React.js, Node.js, and MongoDB.
-            </p>
+              With over 2 years of industry expertise in technologies like Next.js, React, Node.js, and MongoDB, I'm dedicated to broadening my technical horizons and bringing your visionary projects to life.
 
-            <p>
-              I thrive on challenges and am always eager to expand my skill set. Exploring and adopting new technologies is not just a task for me; it's a passion that drives me to push the boundaries of what's possible.
+              Let's delve into a partnership that redefines digital excellence. Pushing boundaries is not just a task for me – it's the passion that fuels constant learning and growth. Together, we’ll build a web presence that stands out.
             </p>
-
             <p className='my-2 text-left'>
               <strong style={{ color: "#ffff00" }}>Core Skills:</strong>
               <br />
