@@ -36,7 +36,9 @@ const Hero = () => {
                     <h2 className='mt-2 text-white text-4xl lg:text-6xl font-bold'>RTR</h2>
                     <p className='text-3xl sm:text-4xl lg:text-4xl mt-1' id="typewriter" style={{ color: "#ffff00" }}></p>
                     <p className='text-4xl sm:text-4xl lg:text-4xl mt-1' style={{ color: 'white' }}>Transform Your Web Presence with RTR – Crafting Bespoke Solutions Tailored to Your Vision.</p>
-                    <p className='text-lg mt-2' style={{ color: 'white' }}>Transform Your Web Presence with RTR – Crafting Bespoke Solutions Tailored to Your Vision</p>
+                    <p className='text-lg mt-2' style={{ color: 'white' }}>
+                    I'm a freelance developer who create digital products for business and startups.I have a lot of experience in building websites and web applications with modern technologies.
+                    </p>
                     <div className="mb-4 mt-2 flex sm:items-center lg:items-left">
                         <div className="inline-flex transition duration-150 ease-in-out" role="group">
                             <a
