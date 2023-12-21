@@ -2,7 +2,8 @@
 
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-
+import logo from '../images/logo.jpeg';
+import Image from 'next/image';
 const Header = () => {
   const [router, setRouter] = useState(usePathname() || '/');
   const [isNavOpen, setNavOpen] = useState(false);
@@ -14,7 +15,14 @@ const Header = () => {
       <div className="font-sans container px-4 mx-auto md:flex md:items-center">
         <div className="flex justify-between items-center w-full">
           <a href="/" className="font-bold text-xl text-indigo-600">
-            Logo
+            <Image
+              src={logo}
+              height={75}
+              width={75}
+              alt='logo'
+              className='h-12 w-12 sm:h-16 sm:w-16' // Adjust the class based on your desired size
+            />
+
           </a>
           <button
             className={`md:hidden border-4 border-solid border-gray-600 p-3 rounded text-gray-600 ${isNavOpen ? 'bg-gray-200' : ''}`}
