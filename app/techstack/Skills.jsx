@@ -20,33 +20,33 @@ const Skills = () => {
     };
 
     return (
-        <div className="font-sans"><h1 className="text-center text-4xl mt-2 font-bold" style={{ color: '#ffff00'}}>Skills</h1><CenteredContainer>
+        <div className="font-Poppins"><h1 className="text-center text-5xl font-Merriweather mt-2 font-bold" style={{ color: '#ffff00'}}>Skills</h1><CenteredContainer>
             <SkillsCard>
-                <div className="skills-list__skills">
+                <div className="skills-list__skills text-xl">
                     <button
                         onClick={selectHandler}
-                        className={activeSkillSet === "languages" ? "activeSkillSet" : ""}
+                        className={activeSkillSet === "languages" ? "activeSkillSet font-Merriweather" : "font-Merriweather"}
                         value="languages"
                     >
                         Programming Languages
                     </button>
                     <button
                         onClick={selectHandler}
-                        className={activeSkillSet === "backend" ? "activeSkillSet" : ""}
+                        className={activeSkillSet === "backend" ? "activeSkillSet font-Merriweather" : "font-Merriweather"}
                         value="backend"
                     >
                         Backend
                     </button>
                     <button
                         onClick={selectHandler}
-                        className={activeSkillSet === "frontend" ? "activeSkillSet" : ""}
+                        className={activeSkillSet === "frontend" ? "activeSkillSet font-Merriweather" : "font-Merriweather"}
                         value="frontend"
                     >
                         Frontend
                     </button>
                     <button
                         onClick={selectHandler}
-                        className={activeSkillSet === "db" ? "activeSkillSet" : ""}
+                        className={activeSkillSet === "db" ? "activeSkillSet font-Merriweather" : "font-Merriweather"}
                         value="db"
                     >
                         Databases

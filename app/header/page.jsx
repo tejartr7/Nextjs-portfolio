@@ -12,7 +12,7 @@ const Header = () => {
   const handleToggleNav = () => setNavOpen(!isNavOpen);
   return (
     <nav className="py-4 md:py-6">
-      <div className="font-sans container px-4 mx-auto md:flex md:items-center">
+      <div className="font-Poppins container px-4 mx-auto md:flex md:items-center">
         <div className="flex justify-between items-center w-full">
           <a href="/" className="font-bold text-xl text-indigo-600">
             <Image
@@ -41,7 +41,7 @@ const Header = () => {
           <a
             href="/"
             onClick={() => handler('/')}
-            className={`p-2 lg:px-4 md:mx-2 text-white rounded ${isActive('/') ? 'bg-gray-200 text-900' : ''}`}
+            className={`p-2 lg:px-4 md:mx-2 text-lg text-white rounded ${isActive('/') ? 'bg-gray-200 text-900' : ''}`}
             style={{
               backgroundColor: isActive('/') ? '#ffff00' : '#000000',
               color: isActive('/') ? 'black' : '#ffff00',
@@ -53,7 +53,7 @@ const Header = () => {
           <a
             href="/#about"
             onClick={() => handler('/#about')}
-            className={`p-2 lg:px-4 md:mx-2 text-white rounded ${isActive('/#about') ? 'bg-gray-200 text-800' : ''}`}
+            className={`p-2 lg:px-4 md:mx-2 text-lg text-white rounded ${isActive('/#about') ? 'bg-gray-200 text-800' : ''}`}
             style={{
               backgroundColor: isActive('/#about') ? '#ffff00' : '#000000',
               color: isActive('/#about') ? 'black' : '#ffff00',
@@ -65,7 +65,7 @@ const Header = () => {
           <a
             href="/#techstack"
             onClick={() => handler('/#techstack')}
-            className={`p-2 lg:px-4 md:mx-2 text-white rounded ${isActive('/#techstack') ? 'bg-gray-200 text-800' : ''}`}
+            className={`p-2 lg:px-4 md:mx-2 text-white rounded text-lg ${isActive('/#techstack') ? 'bg-gray-200 text-800' : ''}`}
             style={{
               backgroundColor: isActive('/#techstack') ? '#ffff00' : '#000000',
               color: isActive('/#techstack') ? 'black' : '#ffff00',
@@ -77,7 +77,7 @@ const Header = () => {
           <a
             href="/#projects"
             onClick={() => handler('/#projects')}
-            className={`p-2 lg:px-4 md:mx-2 text-white rounded ${isActive('/#projects') ? 'bg-gray-200 text-800' : ''}`}
+            className={`p-2 lg:px-4 md:mx-2 text-lg text-white rounded ${isActive('/#projects') ? 'bg-gray-200 text-800' : ''}`}
             style={{
               backgroundColor: isActive('/#projects') ? '#ffff00' : '#000000',
               color: isActive('/#projects') ? 'black' : '#ffff00',
@@ -89,7 +89,7 @@ const Header = () => {
           <a
             href="/#contact"
             onClick={() => handler('/#contact')}
-            className={`p-2 lg:px-4 md:mx-2 text-white rounded ${isActive('/#contact') ? 'bg-gray-200 text-800' : ''}`}
+            className={`p-2 lg:px-4 md:mx-2 text-lg text-white rounded ${isActive('/#contact') ? 'bg-gray-200 text-800' : ''}`}
             style={{
               backgroundColor: isActive('/#contact') ? '#ffff00' : '#000000',
               color: isActive('/#contact') ? 'black' : '#ffff00',

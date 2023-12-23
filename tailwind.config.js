@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'Merriweather': ['Merriweather'],
-        'sans':['sans-serif'],
+        'Poppins': ['Poppins'],
       },
     },
   },

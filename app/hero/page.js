@@ -27,39 +27,39 @@ const Hero = () => {
         };
     }, []);
     return (
-        <div class="font-Merriweather relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
+        <div class="font-Poppins relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
             <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
                 <div class="text-left">
-                    <h3 className="leading-tight lg:text-3xl sm:text-5xl md:text-6xl" style={{ color: '#ffff00' }}>
+                    <h3 className="leading-tight text-3xl" style={{ color: '#ffff00' }}>
                         Hi! I'm
                     </h3>
-                    <h2 className='mt-2 text-white text-4xl lg:text-6xl font-bold'>RTR</h2>
+                    <h2 className='mt-2 text-white text-6xl font-Merriweather'>RTR</h2>
                     <p className='text-3xl sm:text-4xl lg:text-4xl mt-1' id="typewriter" style={{ color: "#ffff00" }}></p>
-                    <p className='text-4xl sm:text-4xl lg:text-4xl mt-1' style={{ color: 'white' }}>Transform Your Web Presence with RTR – Crafting Bespoke Solutions Tailored to Your Vision.</p>
-                    <p className='text-lg mt-2' style={{ color: 'white' }}>
-                    I'm a freelance developer who create digital products for business and startups.I have a lot of experience in building websites and web applications with modern technologies.
+                    <p className='text-3xl ' style={{ color: 'white' }}>Transform Your Web Presence with RTR – Crafting Bespoke Solutions Tailored to Your Vision.</p>
+                    <p className='text-xl mt-2' style={{ color: 'white' }}>
+                        I'm a freelance developer who create digital products for business and startups.I have a lot of experience in building websites and web applications with modern technologies.
                     </p>
                     <div className="mb-4 mt-2 flex sm:items-center lg:items-left">
-                        <div className="inline-flex transition duration-150 ease-in-out" role="group">
+                        <div className="inline-flex  transition duration-150 ease-in-out" role="group">
                             <a
-                                className="rounded-l custom-radius px-8 py-4 text-lg font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-600 text-700 focus:bg-green-600 focus:outline-none focus:ring-0 active:bg-green-700"
+                                className="rounded-l custom-radius px-8 py-4  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-700 focus:bg-green-700 focus:outline-none focus:ring-0 active:bg-green-800 text-xl font-bold"
                                 style={{ backgroundColor: '#ffff00', color: 'black', marginRight: '20px' }}
                                 data-te-ripple-init
                                 href='mailto:codworldrtr7@gmail.com'
                                 data-te-ripple-color="light"
                             >
-                                Mail
+                                Contact me
                             </a>
 
                             <a
-                                className="rounded-r custom-radius px-8 py-4 text-lg font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-600 focus:bg-green-600 focus:outline-none focus:ring-0 active:bg-green-700"
+                                className="rounded-r custom-radius px-8 py-4 uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-700 focus:bg-green-700 focus:outline-none focus:ring-0 active:bg-green-800 text-xl font-bold"
                                 data-te-ripple-init
                                 style={{ backgroundColor: '#ffff00', color: 'black' }}
                                 href='https://twitter.com/raghu_rtr'
                                 onClick={() => handleTwitter()}
                                 data-te-ripple-color="light"
                             >
-                                Twitter
+                                Get in Touch
                             </a>
                         </div>
                     </div>

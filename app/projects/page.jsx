@@ -5,10 +5,10 @@ const Projects = () => {
     return (
         <section id="projects">
             <div
-                className="font-sans gap-4 mx-4 lg:mx-40 mt-6 mb-4 lg:mb-8 text-left"
+                className="font-Poppins gap-4 mx-4 lg:mx-40 mt-6 mb-4 lg:mb-8 text-left"
                 style={{ borderTop: "5px solid #ffff00", color: "white" }}
             >
-                <h1 className="text-4xl m-2 text-center font-bold" style={{ color: "#ffff00" }}>
+                <h1 className="text-5xl m-3 font-Merriweather text-center font-bold" style={{ color: "#ffff00" }}>
                     Projects
                 </h1>
                 {list.map((project, index) => (
@@ -19,13 +19,13 @@ const Projects = () => {
                     >
                         <div className="flex-grow items-center lg:w-9/12 md:w-full p-4 flex flex-col justify-center">
                             {/* Content in the left column */}
-                            <h2 className="text-3xl text-left mb-2" style={{ color: '#ffff00' }}><u>{project.title}</u></h2>
+                            <h2 className="text-3xl text-left font-Merriweather mb-2" style={{ color: '#ffff00' }}><u>{project.title}</u></h2>
                             <p className="text-xl text-left">{project.about}</p>
                             <a
                                 href={project.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-lg mt-2"
+                                className="text-xl mt-2"
                                 style={{ color: '#ffff00' }}
                             >
                             Explore This Project
