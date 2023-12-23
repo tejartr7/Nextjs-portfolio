@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { about } from '../images/index'
 const About = () => {
   return (
-    <section id='about' className='Poppins'>
+    <section id='about' className='font-Poppins'>
       {/*<hr className="border-t-10 border-green-500" />*/}
       <div className='font-sans gap-4 mx-4 lg:mx-40 mt-6 mb-4 lg:mb-8' style={{ borderTop: '5px solid #ffff00', color: 'white' }}>
         {/* Content of the About section goes here */}

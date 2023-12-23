@@ -8,7 +8,7 @@ const Projects = () => {
                 className="font-Poppins gap-4 mx-4 lg:mx-40 mt-6 mb-4 lg:mb-8 text-left"
                 style={{ borderTop: "5px solid #ffff00", color: "white" }}
             >
-                <h1 className="text-5xl m-3 font-Merriweather text-center font-bold" style={{ color: "#ffff00" }}>
+                <h1 className="text-5xl m-4 p-2 font-Merriweather text-center font-bold" style={{ color: "#ffff00" }}>
                     Projects
                 </h1>
                 {list.map((project, index) => (
