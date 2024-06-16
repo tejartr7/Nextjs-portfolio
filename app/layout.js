@@ -13,16 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5912HM2L38"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-5912HM2L38');
-          `}
-        </script>
+        
         <script type="text/javascript">
           {`
             (function(c,l,a,r,i,t,y){
