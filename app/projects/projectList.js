@@ -11,7 +11,7 @@ const list = [
     {
         id:2,
         title:'Swaad bihar ka',
-        link:'https://mobile-shop-website-three.vercel.app/',
+        link:'https://swaadbiharka.co.in',
         about:'This is a webiste for a cloud kitchen at kolkata, where you can order food online,you can find about different dishes and also you can contact them through this website.',
         image:swaad,
     },

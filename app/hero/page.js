@@ -42,7 +42,7 @@ const Hero = () => {
                     <div className="mb-4 mt-2 flex sm:items-center lg:items-left">
                         <div className="inline-flex  transition duration-150 ease-in-out" role="group">
                             <a
-                                className="rounded-l custom-radius px-8 py-4  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-700 focus:bg-green-700 focus:outline-none focus:ring-0 active:bg-green-800 text-xl font-bold"
+                                className="rounded-l custom-radius px-4 py-2  uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-700 focus:bg-green-700 focus:outline-none focus:ring-0 active:bg-green-800 text-xl font-bold"
                                 style={{ backgroundColor: '#ffff00', color: 'black', marginRight: '20px' }}
                                 data-te-ripple-init
                                 href='mailto:codworldrtr7@gmail.com'
@@ -52,7 +52,7 @@ const Hero = () => {
                             </a>
 
                             <a
-                                className="rounded-r custom-radius px-8 py-4 uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-700 focus:bg-green-700 focus:outline-none focus:ring-0 active:bg-green-800 text-xl font-bold"
+                                className="rounded-r custom-radius px-4 py-2 uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-green-700 focus:bg-green-700 focus:outline-none focus:ring-0 active:bg-green-800 text-xl font-bold"
                                 data-te-ripple-init
                                 style={{ backgroundColor: '#ffff00', color: 'black' }}
                                 href='https://twitter.com/raghu_rtr'
