@@ -12,8 +12,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-        
         <script type="text/javascript">
           {`
             (function(c,l,a,r,i,t,y){
@@ -23,6 +21,7 @@ export default function RootLayout({ children }) {
             })(window, document, "clarity", "script", "msxmxt1reu");
           `}
         </script>
+        <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body className={inter.className}>
